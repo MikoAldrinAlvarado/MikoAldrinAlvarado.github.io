@@ -1,0 +1,249 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: 0 auto;
+  background: rgba(49, 54, 63, 0.97);
+  overflow: hidden;
+}
+.pic {
+  position: relative;
+  width: 47px;
+  height: 47px;
+  margin: 29px 0 0 147px;
+  background: url(https://res.cloudinary.com/dvcust3vi/image/upload/v1724654403/CSS3_logo_and_wordmark_gtcwlx.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+  border-radius: 50%;
+}
+.flex-row-a {
+  position: relative;
+  width: 285px;
+  height: 195px;
+  margin: -7px 0 0 31px;
+  z-index: 9;
+}
+.js {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 0;
+  left: 27px;
+  background: url(https://res.cloudinary.com/dvcust3vi/image/upload/v1724654295/JavaScript-logo_h2rtzq.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  border-radius: 50%;
+}
+.html {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 0;
+  left: 204px;
+  background: url(https://res.cloudinary.com/dvcust3vi/image/upload/v1724654558/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail_fnmvgg.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+  border-radius: 50%;
+}
+.css {
+  position: absolute;
+  width: 171px;
+  height: 172px;
+  top: 23px;
+  left: 58px;
+  background: url(https://res.cloudinary.com/dvcust3vi/image/upload/v1724653332/okim_pqwblc.jpg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+  border-radius: 50%;
+}
+.py {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 73px;
+  left: 0;
+  background: url(https://res.cloudinary.com/dvcust3vi/image/upload/v1724654042/python_ju1cq1.jpg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+  border-radius: 50%;
+}
+.sql {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 73px;
+  left: 238px;
+  background: url(https://res.cloudinary.com/dvcust3vi/image/upload/v1724654657/sql-icon-major-database-format-260nw-1904337712_ctkw7k.webp)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+  border-radius: 50%;
+}
+.hello-miko {
+  display: block;
+  position: relative;
+  height: 47px;
+  margin: 18px 0 0 43px;
+  color: #ffffff;
+  font-family: Jura, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.full-stack-developer {
+  display: block;
+  position: relative;
+  height: 19px;
+  margin: 0 0 0 79px;
+  color: #ffffff;
+  font-family: Jura, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.928px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.About {
+  display: block;
+  position: relative;
+  height: 47px;
+  margin: 18px 0 0 114px;
+  color: #ffffff;
+  font-family: Jura, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact {
+  display: block;
+  position: relative;
+  height: 47px;
+  margin: 37px 0 0 90px;
+  color: #ffffff;
+  font-family: Jura, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+
+
+@media screen and (min-width: 400px) {
+  .main-container {
+    width: 1200px;
+    height: 800px;
+  }
+
+
+  .css {
+    width: 380px;
+    height: 380px;
+    top: 100px;
+    left: 100px;
+  }
+
+  .py {
+    height: 120px;
+    width: 120px;
+    top: 420px;
+    left: 20px;
+  }
+
+
+  .js {
+    height: 150px;
+    width: 150px;
+    left: -20px;
+    margin: 0px;
+  }
+
+  .sql {
+    width: 100px;
+    height: 100px;
+    top: -10px;
+    left: 350px;
+  }
+
+  .html {
+    width: 70px;
+    height: 70px;
+    top: 490px;
+    left: 320px;
+  }
+
+
+  .pic {
+    height: 50px;
+    width: 50px;
+    left: 350px;
+    top: 480px;
+  }
+
+  .About {
+    left: 700px;
+    width: 100px;
+    bottom: 350px;
+    font-style: black italic;
+    font-weight: 200px;
+
+
+  }
+
+  .contact {
+    left: 870px;
+    bottom: 433px;
+    font-style: black italic;
+    font-weight: 200px;
+  }
+
+  .hello-miko {
+    font-size: 70px;
+    left: 550px;
+    top: 40px;
+  }
+
+  .full-stack-developer {
+    left: 600px;
+    top: 60px;
+    font-size: 25px;
+  }
+
+}
